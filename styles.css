@@ -6,7 +6,25 @@
 
 .heading  {
     color: blue;
-    font-size: 18px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    font-size: 24px;
+
+    padding: 10px;
+    border: 5px dotted blue;
+    margin: 5px;
+}
+
+.description {
+    display: block;
+    box-sizing: border-box;
+    width: 750px;
+    height: auto;
+
+    padding: 10px;
+    border: 5px solid black;
+    margin: 15px auto;
 }
 
 .center  {
@@ -43,14 +61,44 @@
     font-size: 50px;
 }
 
-.ingredients h2, .ingredients li{
+.ingredients {
+    display: block;
+    box-sizing: border-box;
+    width: 1000px;
+    height: auto;
+
+    padding: 10px;
+    border: 5px solid brown;
+    margin: 15px auto;
+}
+
+.ingredients h2 {
     color: brown;
     text-align: center;
 }
 
-.steps {
+.ingredients li{
+    color: brown;
+}
+
+.steps-header{
     color: green;
     text-align: center;
+}
+
+.steps li {
+    color: green;
+}
+
+.steps {
+    display: block;
+    box-sizing: border-box;
+    width: 1000px;
+    height: auto;
+
+    padding: 10px;
+    border: 5px solid green;
+    margin: 15px auto;
 }
 
 .main {
